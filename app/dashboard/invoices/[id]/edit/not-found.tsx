@@ -1,5 +1,10 @@
 import Link from 'next/link';
 import { FaceFrownIcon } from '@heroicons/react/24/outline';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Failed to find any invoice',
+};
 
 export default function NotFound() {
     return (
